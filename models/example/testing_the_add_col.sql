@@ -1,0 +1,1 @@
+{{add_column('employee', 'akjkynenl', 'varchar(20)','first_db', 'public')}}

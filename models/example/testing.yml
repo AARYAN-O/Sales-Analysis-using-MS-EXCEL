@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: trying_to_pull_sources
+    description: "nothing"
+    columns:
+      - name: age
+        description: "this represents the age"
+        tests:
+          - not_null
+          - accepted_values:
+              values:
+                - 24
+                - 12
+      - name: name
+        description: "this represents name"
+        tests:
+          - not_null:
+              where: "name = 'Ishita'"
+
+
+          
+
+

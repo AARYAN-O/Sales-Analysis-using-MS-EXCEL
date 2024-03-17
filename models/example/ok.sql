@@ -1,0 +1,3 @@
+--ebkss
+
+select * from department
